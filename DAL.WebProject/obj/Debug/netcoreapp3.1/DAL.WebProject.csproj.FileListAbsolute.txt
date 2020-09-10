@@ -1,0 +1,5 @@
+D:\test web mvc .NET project\Traning-web-project\DAL.WebProject\bin\Debug\netcoreapp3.1\DAL.WebProject.deps.json
+D:\test web mvc .NET project\Traning-web-project\DAL.WebProject\bin\Debug\netcoreapp3.1\DAL.WebProject.dll
+D:\test web mvc .NET project\Traning-web-project\DAL.WebProject\obj\Debug\netcoreapp3.1\DAL.WebProject.csprojAssemblyReference.cache
+D:\test web mvc .NET project\Traning-web-project\DAL.WebProject\obj\Debug\netcoreapp3.1\DAL.WebProject.AssemblyInfoInputs.cache
+D:\test web mvc .NET project\Traning-web-project\DAL.WebProject\obj\Debug\netcoreapp3.1\DAL.WebProject.AssemblyInfo.cs

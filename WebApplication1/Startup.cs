@@ -26,7 +26,7 @@ namespace WebApplication1
                 app.UseDeveloperExceptionPage();
                 app.UseStatusCodePages();
                 app.UseStaticFiles();
-                app.UseMvcWithDefaultRoute();
+                app.UseMvcWithDefaultRoute(); 
             }
         }
     }

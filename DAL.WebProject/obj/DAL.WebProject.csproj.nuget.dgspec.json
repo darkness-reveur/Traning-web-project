@@ -4,14 +4,14 @@
     "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj": {}
   },
   "projects": {
-    "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj": {
+    "D:\\test web mvc .NET project\\Traning-web-project\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj",
-        "projectName": "DAL.WebProject",
-        "projectPath": "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj",
+        "projectUniqueName": "D:\\test web mvc .NET project\\Traning-web-project\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "D:\\test web mvc .NET project\\Traning-web-project\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\yser\\.nuget\\packages\\",
-        "outputPath": "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\obj\\",
+        "outputPath": "D:\\test web mvc .NET project\\Traning-web-project\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,75 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj",
+        "projectName": "DAL.WebProject",
+        "projectPath": "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\DAL.WebProject.csproj",
+        "packagesPath": "C:\\Users\\yser\\.nuget\\packages\\",
+        "outputPath": "D:\\test web mvc .NET project\\Traning-web-project\\DAL.WebProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\test web mvc .NET project\\Traning-web-project\\Common\\Common.csproj": {
+                "projectPath": "D:\\test web mvc .NET project\\Traning-web-project\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
